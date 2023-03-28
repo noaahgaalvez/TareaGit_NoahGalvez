@@ -31,4 +31,12 @@ public class Tabla {
         }
         return tabla.toString();
     }
+    
+    public String multiplicar(int numero){
+        StringBuilder tabla= new StringBuilder();
+        int resultado = this.numTabla*numero;
+        tabla.append(this.numTabla+" * "+numero+" = "+resultado+"\n");
+        
+        return tabla.toString();
+    }
 }
